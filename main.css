@@ -1,0 +1,214 @@
+
+    *{
+        direction: rtl;
+        margin: 0;
+        padding: 0;
+        font-family: vazir;
+        justify-content: space-between;
+        justify-items: center;
+
+       
+    }
+
+    .meno{
+        display: flex;
+         width: 100%px;
+    height:70px;
+    background-color: rgb(68, 65, 65);
+    color: antiquewhite;
+    position: relative;
+    justify-content: space-between;
+
+
+
+    }
+    h3{
+        margin-right: 12px;
+        margin-top: 20px;
+        
+    }
+    .flot{
+        position: absolute;
+        left: 50px;
+        margin-top: 17px;
+        
+    }
+    .flot>a{
+        width: 20ox;
+        height: 20px;
+        
+        margin: 20px;
+        font-size: 1.5em;
+        margin-top: 10px;
+        color: antiquewhite;
+        text-decoration: none;
+        justify-items:center;
+       
+        
+    }
+    a:hover{
+        color: aquamarine;
+    }
+    input{
+        width: 250px;
+        height: 35px;
+        margin-left: 15px;
+        margin-top: 0;
+        border-radius: 5px;
+        
+        
+    }
+    button{border: 1px solid green;
+    color: green;
+    width: 70px;
+    height: 40px;
+    margin-left: 5px;
+    border-radius: 3px;
+    background-color: rgb(68, 65, 65);
+    font-size: 20px;
+       
+    }
+    button:hover{
+        color: #ccc;
+    }
+
+    .header{
+        width: 100%;
+        height: 400px;
+        background-color: rgb(116, 108, 108);
+        font-size: 30px;
+       
+    }
+    
+    .titr{
+       color: aliceblue;
+        margin-top: 20px;
+        padding: 20px;
+    }
+    .lorem{
+        
+        width:80%;
+        font-size: 20px;
+        margin-left: 25px;
+        margin-right: 150px;
+        line-height: 35px;
+        height: 100px;
+        background-color: rgb(116, 108, 108);
+        margin-bottom: 40px;
+        padding: 42px;
+
+
+    }
+    .cilick{
+        margin-right:190px;
+        margin-bottom: 20px;
+        background-color: rgb(116, 172, 14);
+        width: 200px;
+        cursor: pointer;
+        margin-top: 80px;
+        border-radius: 3px;
+    }
+    .grid{
+        display: grid;
+        grid-gap: 10px;
+        grid-template-areas: "left center right";
+        padding: 70px;
+        margin-right: 60px;
+        
+        line-height: 30px;
+        border-bottom: 2px solid #ccc;
+        padding-bottom: 60px;
+        margin-left: 38px;
+            
+
+    }
+    .left{
+        grid-area: left;
+
+       
+        
+
+    }
+    .center{
+        grid-area: center;
+    }
+    .right{
+        grid-area: right;
+    }
+    
+    .left>img{
+        width: 200px;
+        border-radius: 100px;
+        margin-right: 40px;
+    }
+    .center>img{
+        width: 200px;
+        border-radius: 100px;
+        margin-right: 40px;
+    }
+    .right>img{
+        width: 200px;
+        border-radius: 100px;
+        margin-right: 40px;
+    }
+    .h{
+        margin-right:100px;
+        margin-top: 10px;
+        
+    }
+    .abi{
+        width: 150px;
+        background-color:rgb(65, 65, 228);
+        margin-top: 20px;
+        margin-right: 60px;
+        cursor: pointer;
+        
+    }
+    .page2{
+        display: grid;
+        grid-template-areas: " picright picleft";
+        border-bottom: 2px solid #ccc;
+        margin-top: 100px;
+        padding-bottom: 60px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .picleft{
+        grid-area: picleft;
+        margin-left: 90px;
+    }
+    .picright{
+        grid-area: picright;
+        line-height: 33px;
+        padding: 100px;
+    }
+    .page3{
+        display: grid;
+        grid-template-areas: " picleft picright";
+        border-bottom: 2px solid #ccc;
+        margin-top: 100px;
+        padding-bottom: 60px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .picleft{
+        grid-area: picleft;
+        margin-left: 90px;
+        margin-right: 60px;
+    }
+    .picright{
+        grid-area: picright;
+        line-height: 33px;
+        padding: 100px;
+    }
+    footer{
+        height:100px;
+        margin-left: 40px;
+    margin-right: 40px;
+    padding: 50px;
+    }
+footer>.end{
+    float: left;
+    
+}
+    
